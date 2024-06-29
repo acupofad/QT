@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
@@ -20,73 +23,359 @@
       <x>280</x>
       <y>10</y>
       <width>461</width>
-      <height>171</height>
+      <height>211</height>
      </rect>
     </property>
     <property name="title">
      <string>数据接收区</string>
     </property>
-    <widget class="QScrollArea" name="scrollArea">
+    <widget class="QProgressBar" name="progressBar_vol1">
      <property name="geometry">
       <rect>
-       <x>5</x>
-       <y>23</y>
-       <width>451</width>
-       <height>141</height>
+       <x>80</x>
+       <y>36</y>
+       <width>118</width>
+       <height>23</height>
       </rect>
      </property>
+     <property name="value">
+      <number>24</number>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>第一象限</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_vol1">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>38</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
      <property name="frameShape">
-      <enum>QFrame::WinPanel</enum>
+      <enum>QFrame::Box</enum>
      </property>
      <property name="frameShadow">
-      <enum>QFrame::Sunken</enum>
+      <enum>QFrame::Raised</enum>
      </property>
-     <property name="lineWidth">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="margin">
       <number>2</number>
      </property>
-     <property name="midLineWidth">
-      <number>1</number>
+    </widget>
+    <widget class="QLabel" name="label_15">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
      </property>
-     <property name="verticalScrollBarPolicy">
-      <enum>Qt::ScrollBarAlwaysOn</enum>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
      </property>
-     <property name="horizontalScrollBarPolicy">
-      <enum>Qt::ScrollBarAsNeeded</enum>
+     <property name="text">
+      <string>第二象限</string>
      </property>
-     <property name="sizeAdjustPolicy">
-      <enum>QAbstractScrollArea::AdjustToContents</enum>
+    </widget>
+    <widget class="QLabel" name="label_vol2">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>78</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
      </property>
-     <property name="widgetResizable">
-      <bool>true</bool>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
      </property>
-     <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="margin">
+      <number>2</number>
+     </property>
+    </widget>
+    <widget class="QProgressBar" name="progressBar_vol2">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>76</y>
+       <width>118</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="value">
+      <number>24</number>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_17">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>第三象限</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_vol3">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>118</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="margin">
+      <number>2</number>
+     </property>
+    </widget>
+    <widget class="QProgressBar" name="progressBar_vol3">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>116</y>
+       <width>118</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="value">
+      <number>24</number>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_19">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>160</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>第四象限</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_vol4">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>158</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="margin">
+      <number>2</number>
+     </property>
+    </widget>
+    <widget class="QProgressBar" name="progressBar_vol4">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>156</y>
+       <width>118</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="value">
+      <number>24</number>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_5">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>30</y>
+       <width>131</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>光斑坐标</string>
+     </property>
+     <widget class="QLabel" name="label_xPos">
       <property name="geometry">
        <rect>
-        <x>0</x>
-        <y>0</y>
-        <width>433</width>
-        <height>137</height>
+        <x>30</x>
+        <y>30</y>
+        <width>81</width>
+        <height>21</height>
        </rect>
       </property>
-      <layout class="QGridLayout" name="gridLayout">
-       <item row="0" column="0">
-        <widget class="QLabel" name="label_recv_data">
-         <property name="enabled">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::NoFrame</enum>
-         </property>
-         <property name="text">
-          <string>TextLabel</string>
-         </property>
-         <property name="margin">
-          <number>20</number>
-         </property>
-        </widget>
-       </item>
-      </layout>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="margin">
+       <number>2</number>
+      </property>
      </widget>
+     <widget class="QLabel" name="label_vol1_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>21</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>X:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_yPos">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>60</y>
+        <width>81</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="margin">
+       <number>2</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_vol1_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>21</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Y:</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>160</y>
+       <width>53</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
     </widget>
    </widget>
    <widget class="QGroupBox" name="groupBox_2">
@@ -351,9 +640,9 @@
     <property name="geometry">
      <rect>
       <x>280</x>
-      <y>190</y>
+      <y>240</y>
       <width>461</width>
-      <height>151</height>
+      <height>101</height>
      </rect>
     </property>
     <property name="title">
@@ -428,9 +717,9 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>50</y>
+       <y>30</y>
        <width>601</width>
-       <height>91</height>
+       <height>111</height>
       </rect>
      </property>
     </widget>
@@ -438,7 +727,7 @@
      <property name="geometry">
       <rect>
        <x>620</x>
-       <y>60</y>
+       <y>30</y>
        <width>91</width>
        <height>31</height>
       </rect>
@@ -456,7 +745,7 @@
      <property name="geometry">
       <rect>
        <x>620</x>
-       <y>100</y>
+       <y>70</y>
        <width>91</width>
        <height>31</height>
       </rect>
@@ -470,8 +759,26 @@
       <string>发送</string>
      </property>
     </widget>
+    <widget class="QPushButton" name="btn_serial_stop">
+     <property name="geometry">
+      <rect>
+       <x>620</x>
+       <y>110</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>停止</string>
+     </property>
+    </widget>
    </widget>
-   <widget class="QCheckBox" name="checkBox">
+   <widget class="QCheckBox" name="checkBox_timer_send">
     <property name="geometry">
      <rect>
       <x>30</x>
@@ -484,46 +791,10 @@
      <string>定时发送</string>
     </property>
    </widget>
-   <widget class="QDoubleSpinBox" name="spin_time">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>520</y>
-      <width>91</width>
-      <height>24</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton">
-    <property name="geometry">
-     <rect>
-      <x>240</x>
-      <y>520</y>
-      <width>97</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>十六进制</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_2">
-    <property name="geometry">
-     <rect>
-      <x>320</x>
-      <y>520</y>
-      <width>97</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>ASCII</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>400</x>
+      <x>240</x>
       <y>523</y>
       <width>53</width>
       <height>15</height>
@@ -536,7 +807,7 @@
    <widget class="QLabel" name="label_send_count">
     <property name="geometry">
      <rect>
-      <x>460</x>
+      <x>300</x>
       <y>523</y>
       <width>53</width>
       <height>15</height>
@@ -544,6 +815,29 @@
     </property>
     <property name="text">
      <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spin_time">
+    <property name="geometry">
+     <rect>
+      <x>105</x>
+      <y>520</y>
+      <width>61</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>523</y>
+      <width>53</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ms</string>
     </property>
    </widget>
   </widget>

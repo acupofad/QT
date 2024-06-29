@@ -8,7 +8,9 @@
 #include "qserialport.h"
 #include <QTextEdit>
 #include <QMessageBox>
-#include <QTime>
+#include <QTimer>
+#include <QThread>
+
 
 QT_BEGIN_NAMESPACE
 
@@ -25,6 +27,7 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
     int component_init();
+    void timerEvent(QTimerEvent *event);
 
 private slots:
     int set_serial_bund(int index);
@@ -33,14 +36,21 @@ private slots:
     int set_serial_check(int index);
     int set_serial_port(const QString &portname);
 
-    int read_data();
+    void read_data();
 
-
+    void send_cycle();
     void on_btn_serial_switch_clicked();
     void on_btn_serial_send_clicked();
     void on_btn_clear_textSend_clicked();
 
 
+
+    void on_btn_serial_stop_clicked();
+    void cal_beam_pos();
+    void onReadingTimerTimeout();
+    void On1Click();
+    void Off1Click();
+    void slot_com_timeout_send();
 
 private:
     Ui::MainWindow *ui;
@@ -49,7 +59,13 @@ private:
     QSerialPort::StopBits m_serial_stopbit;
     QSerialPort::Parity m_serial_check;
     QSerialPort m_serial_port;
+    QTimer pTimerSend;
+    QTimer pTimerRecv;
 
+    int m_timer_id;
+    int delay_timer_id;
+    int send_count = 0;
+    quint8 int_pos_sign = 0;
     int check_end=0;
     QString result_str="";
     QString Reading_Str;
@@ -63,6 +79,6 @@ private:
     double *power_data = nullptr;
     double laser_power_value;
     double max_power, min_power, aver_power, temp_power_sum, rmsdev_power;
-    quint8 get_direct_pos_sign = 0;
+    quint8 get_direct_pos_sign = 1;
 };
 #endif // MAINWINDOW_H

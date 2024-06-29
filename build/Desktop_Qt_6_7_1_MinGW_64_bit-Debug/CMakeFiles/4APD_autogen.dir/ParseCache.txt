@@ -4,7 +4,8 @@ E:/code/4QPD/4APD/mainwindow.h
  mdp:E:/code/4QPD/4APD/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/4APD_autogen/moc_predefs.h
  mdp:E:/code/4QPD/4APD/mainwindow.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/QDebug
- mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/QTime
+ mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/QThread
+ mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/QTimer
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/q20functional.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/q20memory.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/q20type_traits.h
@@ -18,12 +19,12 @@ E:/code/4QPD/4APD/mainwindow.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qatomic.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qatomic_cxx11.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qbasicatomic.h
+ mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qbasictimer.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qbindingstorage.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qbytearray.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qbytearrayalgorithms.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qbytearraylist.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qbytearrayview.h
- mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qcalendar.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qchar.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qcompare.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qcompare_impl.h
@@ -37,8 +38,9 @@ E:/code/4QPD/4APD/mainwindow.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qcontiguouscache.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qdarwinhelpers.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qdatastream.h
- mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qdatetime.h
+ mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qdeadlinetimer.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qdebug.h
+ mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qelapsedtimer.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qendian.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qexceptionhandling.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qflags.h
@@ -58,7 +60,6 @@ E:/code/4QPD/4APD/mainwindow.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qlatin1stringview.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qline.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qlist.h
- mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qlocale.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qlogging.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qmalloc.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qmap.h
@@ -112,6 +113,8 @@ E:/code/4QPD/4APD/mainwindow.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qtdeprecationmarkers.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qtenvironmentvariables.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qtextstream.h
+ mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qthread.h
+ mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qtimer.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qtmetamacros.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qtnoop.h
  mdp:E:/qt/QT-description/6.7.1/mingw_64/include/QtCore/qtpreprocessorsupport.h
@@ -195,6 +198,7 @@ E:/code/4QPD/4APD/mainwindow.h
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocated_ptr.h
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_base.h
+ mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_futex.h
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_lockfree_defines.h
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.h
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc
@@ -237,6 +241,8 @@ E:/code/4QPD/4APD/mainwindow.h
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/specfun.h
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_function.h
+ mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_mutex.h
+ mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_thread.h
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algo.h
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algobase.h
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h
@@ -263,6 +269,7 @@ E:/code/4QPD/4APD/mainwindow.h
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/string_view.tcc
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stringfwd.h
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/uniform_int_dist.h
+ mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/unique_lock.h
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/unique_ptr.h
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/unordered_map.h
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/uses_allocator.h
@@ -273,6 +280,7 @@ E:/code/4QPD/4APD/mainwindow.h
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/climits
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cmath
+ mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/condition_variable
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstddef
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdio
@@ -292,6 +300,7 @@ E:/code/4QPD/4APD/mainwindow.h
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/string_conversions.h
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/type_traits.h
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/functional
+ mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/future
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/initializer_list
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iterator
@@ -299,6 +308,7 @@ E:/code/4QPD/4APD/mainwindow.h
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/list
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/map
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/memory
+ mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/mutex
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/new
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/numeric
  mdp:E:/qt/QT-description/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/optional
